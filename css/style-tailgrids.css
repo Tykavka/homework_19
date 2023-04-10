@@ -272,15 +272,16 @@
 }
 @media (max-width: 950px) {
 	.cards-feat-prod__row {
-		display: grid;
+		/* display: grid;
 		grid-template-columns: repeat(2, 1fr);
 		gap: 15px;
-		margin-bottom: 15px;
-	}
-	.row-feat-prod__item:nth-child() {
+		margin-bottom: 15px; */
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
 	}
 	.info__main-title {
-		font-size: 1.5rem; /* 24/16 */
+		font-size: 1.3rem; /* 24/16 */
 		height: 1.9em;
 	}
 }
