@@ -272,33 +272,25 @@
 }
 @media (max-width: 950px) {
 	.cards-feat-prod__row {
-		/* display: grid;
+		display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 15px;*/
-		margin-bottom: 15px; 
-		display: flex;
-		flex-wrap: nowrap;
-		justify-content: space-evenly;
+		gap: 15px;
+	}
+	.cards-feat-prod__row:not(:last-child) {
+		margin-bottom: 15px;
 	}
 	.info__main-title {
-		font-size: 1.3rem; /* 24/16 */
-		height: 1.9em;
+		font-size: 1.37rem;
+		height: 1.4em;
+		overflow: hidden;
 	}
 }
 @media (max-width: 750px) {
 	.cards-feat-prod__row {
-		/* display: grid;
+		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		gap: 15px;
-		margin-bottom: 15px; */
-		margin-bottom: 15px; 
-		display: flex;
-		flex-wrap: nowrap;
-		justify-content: space-evenly;
-	}
-	.row-feat-prod__item {
-		justify-content: stretch;
-		padding: 0;
+		margin-bottom: 15px;
 	}
 	.info__main-title {
 		font-size: 20px;
