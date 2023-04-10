@@ -298,18 +298,6 @@
 }
 
 
-
-
-
-
-@media (max-width: 500px) {
-	.cards-feat-prod__row {
-	}
-	.row-feat-prod__item {
-		width: 100%;
-		justify-self: center;
-	}
-}
 /* --------------------------- */
 .tail-grids__shop-by-category {
 	margin-bottom: 100px;
