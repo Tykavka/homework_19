@@ -63,9 +63,6 @@
 .cards__item {
 	transition: transform 0.3s ease;
 }
-.cards__item:hover{
-	transform: scale(1.05);
-}
 .item-late-coll__image {
 	margin-bottom: 20px;
 }
@@ -85,9 +82,7 @@
 	color: #212B36;
 	transition: color 0.2s ease;
 }
-.item-late-coll__title:hover {
-	color: #212b3656;
-}
+
 .item-late-coll__price {
 	font-weight: 700;
 	line-height: 1.5;
@@ -97,7 +92,14 @@
 .item-late-coll__description {
 	max-width: 280px;
 }
-
+@media (any-hover: hover) {
+	.item-late-coll__title:hover {
+		color: #212b3656;
+	}
+	.cards__item:hover{
+		transform: scale(1.05);
+	}
+}
 @media (max-width:1200px) {
 	.latest-collection__cards {
 		display: grid;
