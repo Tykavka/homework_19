@@ -274,8 +274,8 @@
 	.cards-feat-prod__row {
 		/* display: grid;
 		grid-template-columns: repeat(2, 1fr);
-		gap: 15px;
-		margin-bottom: 15px; */
+		gap: 15px;*/
+		margin-bottom: 15px; 
 		display: flex;
 		flex-wrap: nowrap;
 		justify-content: space-evenly;
@@ -287,10 +287,14 @@
 }
 @media (max-width: 750px) {
 	.cards-feat-prod__row {
-		display: grid;
+		/* display: grid;
 		grid-template-columns: repeat(1, 1fr);
 		gap: 15px;
-		margin-bottom: 15px;
+		margin-bottom: 15px; */
+		margin-bottom: 15px; 
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
 	}
 	.row-feat-prod__item {
 		justify-content: stretch;
