@@ -58,7 +58,6 @@
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	column-gap: 30px;
-	justify-content: stretch;
 }
 .cards__item {
 	transition: transform 0.3s ease;
@@ -76,34 +75,22 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	margin-bottom: 4px;
 }
 .item-late-coll__title {
-	display: inline-block;
-	margin-right: 26px;
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 1.3;	
 	color: #212B36;
-	margin-bottom: 4px;
 	transition: color 0.2s ease;
 }
 .item-late-coll__title:hover {
 	color: #212b3656;
 }
 .item-late-coll__price {
-	position: relative;
-	left: 0;
-	display: inline-block;
 	font-weight: 700;
 	line-height: 1.5;
 	color: #3056D3;
-}
-.item-late-coll__description {
-	width: 100%;
-}
-.item-late-coll__description {
-	max-width: 30%;
-	margin: 0;
 }
 
 @media (max-width:930px) {
@@ -123,12 +110,12 @@
 	}
 	.latest-collection__cards {
 		display: flex;
+		margin: 0 -15px;
+		flex: 0 0 50%;
 		flex-wrap: wrap;
-		flex: 1 0 50%;
 	}
 	.cards__item {
-		max-width: 100%;
-		margin: 0 auto;
+		padding: 0 15px;
 	}
 	.item-late-coll__title {
 		font-size: 18px;
