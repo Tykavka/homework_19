@@ -301,6 +301,7 @@
 /* --------------------------- */
 .tail-grids__shop-by-category {
 	margin-bottom: 100px;
+	padding-top: 20px;
 }
 .shop-by-category__title {
 	text-transform: capitalize;
