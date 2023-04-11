@@ -313,11 +313,14 @@
 .shop-by-category__title:hover {
 	color: #212b368c;
 }
+.shop-by-category__info {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: start;
+}
 .shop-by-category__text {
 	max-width: 507px;
 	text-align: left;
-	display: inline-block;
-	margin-right: 516px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -325,8 +328,8 @@
 }
 
 .shop-by-category__btn {
-	position: relative;
-	bottom: 12px;
+	align-self: center;
+	justify-self: end;
 	vertical-align: middle;
 	padding: 8px 30px;
 	border: 1px solid #3056D3;
@@ -358,7 +361,7 @@
 	padding: 12px;
 }
 .item-cards__img img {
-	max-width: 100%;
+	width: 100%;
 }
 .item-cards__info {
 	padding: 25px;
@@ -381,6 +384,105 @@
 }
 .item-cards__title a:hover {
 	color: #3056D3;
+}
+@media (min-width:1440px) {
+	.cards-shop-category__item {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 15px;
+		padding-top: 100px;
+	}
+	.shop-by-category__text {
+		font-size: 28px;
+		line-height: 1.4;
+	}
+	.shop-by-category__title  {
+		font-size: 52px;
+		margin-bottom: 40px;
+	}
+	.shop-by-category__btn {
+		padding: 10px 30px;
+		font-size: 28px;
+		line-height: 1.4;
+	}
+	.item-cards__img {
+		padding: 16px;
+	}
+	.item-cards__info {
+		line-height: 1.4;
+		padding: 16px;
+	}
+	.item-cards__category {
+		font-size: 24px;
+	}
+	.item-cards__title {
+		font-size: 27px;
+	}
+}
+@media (max-width:850px) {
+	.cards-shop-category__item {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 15px;
+		padding-top: 50px;
+	}
+	.shop-by-category__text {
+		font-size: 15px;
+		line-height: 1.2;
+	}
+	.shop-by-category__title  {
+		font-size: 32px;
+		margin-bottom: 18px;
+	}
+	.shop-by-category__btn {
+		padding: 5px 22px;
+		font-size: 15px;
+		line-height: 1.2;
+	}
+	.item-cards__img {
+		padding: 10px;
+	}
+	.item-cards__info {
+		line-height: 1.1;
+		padding: 10px;
+	}
+	.item-cards__category {
+		font-size: 13px;
+	}
+	.item-cards__title {
+		font-size: 22px;
+	}
+}
+@media (max-width:570px) {
+	.cards-shop-category__item {
+		grid-template-columns: repeat(1, 1fr);
+		gap: 10px;
+		padding-top: 40px;
+	}
+	.shop-by-category__text {
+		font-size: 14px;
+		line-height: 1.2;
+	}
+	.shop-by-category__title  {
+		font-size: 28px;
+		margin-bottom: 14px;
+	}
+	.shop-by-category__btn {
+		padding: 5px 18px;
+		font-size: 14px;
+		line-height: 1.2;
+	}
+	.item-cards__img {
+		padding: 8px;
+	}
+	.item-cards__info {
+		line-height: 1.1;
+		padding: 10px;
+	}
+	.item-cards__category {
+		font-size: 13px;
+	}
+	.item-cards__title {
+		font-size: 18px;
+	}
 }
 
 /* --------------------- */
