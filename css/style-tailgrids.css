@@ -368,6 +368,7 @@
 }
 .item-cards__img {
 	position: relative;
+	margin: 12px;
 	padding-top: 63%; /*230/346 */
 }
 .item-cards__img img {
@@ -451,6 +452,9 @@
 		font-size: 15px;
 		line-height: 1.2;
 	}
+	.item-cards__img {
+		margin: 10px;
+	}
 	.item-cards__info {
 		line-height: 1.1;
 		padding: 10px;
@@ -481,6 +485,13 @@
 		font-size: 14px;
 		line-height: 1.2;
 	}
+	.item-cards__img {
+		margin: 8px;
+	}
+	/* .item-cards__img img {
+		margin: 8px;
+		margin-right: -8px;
+	} */
 	.item-cards__info {
 		line-height: 1.1;
 		padding: 10px;
