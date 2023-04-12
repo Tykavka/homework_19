@@ -577,8 +577,7 @@
 	.top-collection__title {
 		margin-bottom: 15px;
 		font-size: 18px;
-			line-height: 1.15;
-			margin-bottom: 4px;
+		line-height: 1.15;
 	}
 	.top-collection__main-title {
 			font-size: 26px;
@@ -605,9 +604,6 @@
 		margin-bottom: 10px;
 		font-size: 16px;
 	}
-	.top-collection__main-title {
-
-	}
 	.top-collection__text {
 		font-size: 14px;
 	}
@@ -624,15 +620,6 @@
 	}
 }
 @media (max-width: 499.98px) {
-	.top-collection__title {
-
-	}
-	.top-collection__main-title {
-
-	}
-	.top-collection__text {
-
-	}
 	.cards-top-collection__item {
 		display: grid;
 		gap: 20px;
