@@ -191,8 +191,6 @@
 .row-feat-prod__item:hover {
 	transform: scale(1.05);
 }
-.item__image {
-}
 .item__image img {
 	border-radius: 7px 7px 0px 0px;
 	height: 349px;
